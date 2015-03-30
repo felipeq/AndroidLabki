@@ -18,7 +18,6 @@ public class MyActivity extends Activity {
     }
 
     public void ZdjecieClick(View view) {
-        Intent mojeActivityIntent = new Intent(this, MojeActivity.class);
-        startActivity(mojeActivityIntent);
+        startActivity(new Intent(this, MojeActivity.class));
     }
 }
